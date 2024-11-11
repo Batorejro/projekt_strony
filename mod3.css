@@ -1,0 +1,292 @@
+p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 15px;
+
+}
+
+body {
+    background-attachment: fixed;
+
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+    border-bottom: 0px dotted;
+
+}
+a:hover {
+    color: #ffffff;
+}
+
+.srodek {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+    margin: 0 0 72px 0;
+}
+
+.vertical-container {
+    height: 300px;
+    max-width: 800px;
+    border: 5px solid #F22613;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.flex-element {
+    line-height: 50px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border: 5px solid #F7CA18;
+}
+
+
+/* MENU GÓRNE */
+span.link {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* ŚRODKOWE MENU */
+
+#srodkowe_menu {
+    width: 944px;
+    height: 32px;
+}
+
+#srodkowe_menu li {
+    list-style-type: none;
+    float: left;
+}
+
+#srodkowe_menu li a {
+    border-bottom: none;
+    color: #C7C7D4;
+    font-size: 13px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#srodkowe_menu li a:hover {
+    color: #ffffff;
+}
+
+#srodkowe_menu li span.link2 {
+    display: block;
+    margin-top: 7px;
+}
+
+#srodkowe_menu #pierwszy_poziom {
+    margin-left: 20px;
+}
+
+#srodkowe_menu span.przerwa {
+    display: inline-block;
+    margin: 5px 10px 0px 10px;
+    color: #ffffff;
+}
+
+/* MENU ROZWIJANE */
+
+#pierwszy_poziom li .drugi_poziom {
+	display: none;
+    background-color: #ffffff;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+			
+#pierwszy_poziom li:hover .drugi_poziom {
+	display: block;
+	width: 210px;
+}
+#pierwszy_poziom li .drugi_poziom li {
+	width: 150px;
+	text-align: left;
+    margin-left: 30px;
+	border-top: 1px solid #CCCCCC;
+}
+#pierwszy_poziom li {
+	position: relative;
+}
+#pierwszy_poziom li .drugi_poziom {
+	position: absolute;
+	top: 1.9em;
+	left: 0em;
+}
+#pierwszy_poziom > li {
+	height: 32px;
+}
+
+#pierwszy_poziom li .drugi_poziom li a {
+	display: block;
+	width: 150px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: bold;
+}
+#pierwszy_poziom li .drugi_poziom li a:hover {
+	background-color: #CCCCCC;
+	padding-left: 20px;
+	margin-left: -20px;
+	padding-right: 20px;
+	margin-top: -1px;
+	border-top: 1px solid #CCCCCC;
+	color: black;
+}
+
+#pierwszy_poziom li .drugi_poziom li.pierwszy_element_menu {
+	margin-top: 5px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-bottom: 15px;
+    color: #0A3C72;
+}
+
+
+#zawartosc .boczny_tekst {
+    text-align: left;
+    float: right;
+    width: 150px;
+    margin: 10px 20px;
+    font-size: 72px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    border: 1px dotted gray;
+    padding: 20px 15px;
+
+}
+
+
+/* DOLNA CZĘŚĆ STRONY */
+
+.input_text {
+    background-color: #0097e6;
+    font-size: 22px;
+}
+
+
+/*przyciski*/
+.block {
+    display: block;
+    max-width: 100px;
+    padding: 24px 0;
+    background: #33d9b2;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.block:hover {
+    color: #d98033;
+}
+
+.block:active {
+    border: 2px inset gray;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+div {
+    border: 0px solid #0097e6;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+section {
+    min-height: 60px;
+}
+
+.block-element {
+    display: block;
+    color: #ffffff;
+}
+
+.inline-element {
+    display: inline;
+
+}
+
+.inline-block-element {
+    display: inline-block;
+    width: 15%;
+    min-height: 60px;
+}
+
+.line1 {
+
+    background-color: #ff5252;
+    border: 0px;
+    height: 30px;
+}
+
+/*Skils*/ 
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/*Images*skill*/
+.skill-image {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.skill-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.skill.right .skill-image {
+    right: 0;
+}
+
+.skill-right .skill-description {
+    padding: 36px 55% 36px 0;
+    text-align: left;
+}
+
+.skill-left .skill-description {
+    padding: 36px 55% 0 36px;
+    text-align: right;
+}
+
+/*ikony*/
+.inline-block-element i {
+    margin-left: 30px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #F22613;
+    border-radius: 50%;
+    position: center;
+}
